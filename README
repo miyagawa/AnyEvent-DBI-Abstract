@@ -27,9 +27,9 @@ SYNOPSIS
       });
 
 DESCRIPTION
-    AnyEvent::DBI::Abstract is a subclass that has methods to wrap
-    SQL::Abstract methods into "exec". See SQL::Abstract for the parameters
-    to the methods and AnyEvent::DBI for the callback interface.
+    AnyEvent::DBI::Abstract is a subclass of AnyEvent::DBI that has methods
+    to wrap SQL::Abstract methods into "exec". See SQL::Abstract for the
+    parameters to the methods and AnyEvent::DBI for the callback interface.
 
 AUTHOR
     Tatsuhiko Miyagawa <miyagawa@bulknews.net>
@@ -39,3 +39,5 @@ LICENSE
     under the same terms as Perl itself.
 
 SEE ALSO
+    AnyEvent::DBI SQL::Abstract
+

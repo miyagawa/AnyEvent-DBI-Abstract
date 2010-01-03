@@ -62,10 +62,10 @@ AnyEvent::DBI::Abstract - AnyEvent::DBI + SQL::Abstract
 
 =head1 DESCRIPTION
 
-AnyEvent::DBI::Abstract is a subclass that has methods to wrap
-SQL::Abstract methods into C<exec>. See L<SQL::Abstract> for the
-parameters to the methods and L<AnyEvent::DBI> for the callback
-interface.
+AnyEvent::DBI::Abstract is a subclass of AnyEvent::DBI that has
+methods to wrap SQL::Abstract methods into C<exec>. See
+L<SQL::Abstract> for the parameters to the methods and
+L<AnyEvent::DBI> for the callback interface.
 
 =head1 AUTHOR
 
@@ -77,5 +77,7 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =head1 SEE ALSO
+
+L<AnyEvent::DBI> L<SQL::Abstract>
 
 =cut
