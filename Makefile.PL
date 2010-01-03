@@ -6,7 +6,6 @@ requires 'parent';
 requires 'AnyEvent::DBI';
 requires 'SQL::Abstract';
 build_requires 'Test::More';
-use_test_base;
 test_requires 'Test::Requires';
 auto_include_deps;
 author_tests('xt');
