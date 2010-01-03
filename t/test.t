@@ -5,7 +5,7 @@ use AnyEvent::DBI::Abstract;
 sub sync(&;&) {
     my $block = shift;
     my $cb = shift;
-    my $cv = AE::cv;
+    my $cv = AnyEvent->condvar;
     $cv->cb(sub { $cb->($_[0]->recv) }) if $cb;
     $block->($cv);
     $cv->recv;

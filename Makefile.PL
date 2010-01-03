@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'AnyEvent-DBI-Abstract';
 all_from 'lib/AnyEvent/DBI/Abstract.pm';
 readme_from 'lib/AnyEvent/DBI/Abstract.pm';
-requires 'AE';
+requires 'parent';
 requires 'AnyEvent::DBI';
 requires 'SQL::Abstract';
 build_requires 'Test::More';
